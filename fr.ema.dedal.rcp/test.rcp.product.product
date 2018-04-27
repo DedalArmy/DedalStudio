@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="My Product" uid="test.rcp.produc" id="test.rcp.product_test" application="test.rcp.application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="My Product" uid="test.rcp.product" id="fr.ema.dedal.rcp.product_test" application="fr.ema.dedal.rcp.application" useFeatures="false" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -96,5 +96,12 @@
       <feature id="org.eclipse.emf.common"/>
    </features>
 
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
 
 </product>

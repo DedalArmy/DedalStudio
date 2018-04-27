@@ -12,8 +12,10 @@
       </application>
    </extension>
   <extension id="product_test" point="org.eclipse.core.runtime.products">
-  <product application="fr.ema.dedal.rcp.application" name="My Product">
-    <property name="appName" value="My App"> </property>
+  <product
+        application="fr.ema.dedal.rcp.application"
+        name="My Product">
+    <property name="appName" value="My Product"> </property>
     <property name="applicationXMI" value="fr.ema.dedal.rcp/Application.e4xmi"> </property>
   </product>
 </extension>
