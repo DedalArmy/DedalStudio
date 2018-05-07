@@ -10,7 +10,7 @@
             <children xsi:type="basic:PartStack" xmi:id="_VnnBgdSzEeGBn6dQ9VPexA" containerData="80">
               <tags>newtablook</tags>
               <tags>org.eclipse.e4.primaryNavigationStack</tags>
-              <children xsi:type="advanced:Placeholder" xmi:id="_QR29cNS2EeGBn6dQ9VPexA" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_sS7Q8NS1EeGBn6dQ9VPexA"/>
+              <children xsi:type="advanced:Placeholder" xmi:id="_tbQF8E6jEeikmth0mebhXA" elementId="fr.ema.dedal.rcp.placeholder.2" ref="_sS7Q8NS1EeGBn6dQ9VPexA"/>
             </children>
             <children xsi:type="basic:PartStack" xmi:id="_0E-W8ElIEeiER-p5RDN9lA" elementId="fr.ema.dedal.rcp.partstack.0" containerData="20">
               <children xsi:type="advanced:Placeholder" xmi:id="_45Ls0ElIEeiER-p5RDN9lA" elementId="fr.ema.dedal.rcp.placeholder.1" ref="_pQVvsElIEeiER-p5RDN9lA"/>
@@ -22,6 +22,7 @@
               <tags>newtablook</tags>
               <tags>org.eclipse.e4.secondaryDataStack</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_soNH8NS2EeGBn6dQ9VPexA" elementId="org.eclipse.ui.views.PropertySheet" ref="_WqRGcNS1EeGBn6dQ9VPexA"/>
+              <children xsi:type="advanced:Placeholder" xmi:id="_xC8Z0E6tEei-PrRu7aAnGw" elementId="fr.ema.dedal.rcp.placeholder.3" ref="_sSqhsE6tEei-PrRu7aAnGw"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_MUyboEkiEeiSh-xBcBZK0Q" elementId="fr.ema.dedal.rcp.placeholder.0" ref="_J_rlcEkiEeiSh-xBcBZK0Q"/>
             </children>
           </children>
@@ -37,42 +38,37 @@
         <children xsi:type="menu:DirectMenuItem" xmi:id="_ADZFQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.directmenuitem.open" label="Open..." contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.OpenAction"/>
         <children xsi:type="menu:DirectMenuItem" xmi:id="_AhJYQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.directmenuitem.openuri" label="Open URI..." contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.OpenURIAction"/>
         <children xsi:type="menu:MenuSeparator" xmi:id="_GdtdUEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.2"/>
-        <children xsi:type="menu:Menu" xmi:id="_G4pF0EiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menu.convertlinedelimitersto" label="Convert Line Delimiters To"/>
-        <children xsi:type="menu:MenuSeparator" xmi:id="_HUTuIEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.3"/>
+        <children xsi:type="menu:Menu" xmi:id="_B-LVoE7fEeiBPu4GrIa0sg" elementId="fr.ema.dedal.rcp.menu.1">
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_EaEwUE7fEeiBPu4GrIa0sg" elementId="fr.ema.dedal.rcp.handledmenuitem.windows" label="Windows" command="_Ve4xoE7eEeiBPu4GrIa0sg"/>
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_EuCOIE7fEeiBPu4GrIa0sg" elementId="fr.ema.dedal.rcp.handledmenuitem.unix" label="Unix" command="_VfP-AE7eEeiBPu4GrIa0sg"/>
+        </children>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_DSqcUE7fEeiBPu4GrIa0sg" elementId="fr.ema.dedal.rcp.menuseparator.1"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_HtAiAEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.close" label="Close" command="_dB__EEiOEeiXvb4RukxkGQ"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_IDUwQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.closeall" label="Close All" command="_dCJJAEiOEeiXvb4RukxkGQ"/>
         <children xsi:type="menu:MenuSeparator" xmi:id="_Ia1RUEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.4"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_M69l0ElZEeiER-p5RDN9lA" elementId="fr.ema.dedal.rcp.handledmenuitem.save" label="Save" command="_6GpAcEkyEeiER-p5RDN9lA"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_JEocQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.saveas" label="Save As..." command="_dCcrAEiOEeiXvb4RukxkGQ"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_JrnjwEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.saveall" label="Save All" command="_9M7yUEiKEeiXvb4RukxkGQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_M69l0ElZEeiER-p5RDN9lA" elementId="fr.ema.dedal.rcp.handledmenuitem.save" label="Save" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/save.gif" command="_6GpAcEkyEeiER-p5RDN9lA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_JEocQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.saveas" label="Save As..." iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/saveas_edit.gif" command="_dCcrAEiOEeiXvb4RukxkGQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_JrnjwEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.saveall" label="Save All" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/save_all.gif" command="_9M7yUEiKEeiXvb4RukxkGQ"/>
         <children xsi:type="menu:MenuSeparator" xmi:id="_KbhWsEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.5"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_K7EZcEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.restart" label="Restart" command="_dCl08EiOEeiXvb4RukxkGQ"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_LUNSMEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.exit" label="Exit" command="_TmWrYEiLEeiXvb4RukxkGQ"/>
       </children>
       <children xsi:type="menu:Menu" xmi:id="_1h61IEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menu.edit" label="Edit">
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_3n97oEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.undotyping" label="Undo Typing" command="_irTfAEiQEeiXvb4RukxkGQ"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_4DfaAEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.redo" label="Redo" command="_irdQAEiQEeiXvb4RukxkGQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_3n97oEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.undotyping" label="Undo Typing" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/undo_edit.gif" command="_irTfAEiQEeiXvb4RukxkGQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_4DfaAEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.redo" label="Redo" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/redo_edit.gif" command="_irdQAEiQEeiXvb4RukxkGQ"/>
         <children xsi:type="menu:MenuSeparator" xmi:id="_4eIHkEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.6"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_5dpq4EiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.cut" label="Cut" command="_irnBAEiQEeiXvb4RukxkGQ"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_sd-S8EiQEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.copy" label="Copy" command="_irwK8EiQEeiXvb4RukxkGQ"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_5z0IIEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.3"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_6HAw8EiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.paste" label="Paste" command="_ir578EiQEeiXvb4RukxkGQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_5dpq4EiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.cut" label="Cut" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/cut_edit.gif" command="_irnBAEiQEeiXvb4RukxkGQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_sd-S8EiQEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.copy" label="Copy" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/copy.gif" command="_irwK8EiQEeiXvb4RukxkGQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_6HAw8EiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.paste" label="Paste" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/paste.gif" command="_ir578EiQEeiXvb4RukxkGQ"/>
         <children xsi:type="menu:MenuSeparator" xmi:id="_6eqb8EiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.7"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_8OjFMEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.delete" label="Delete" command="_ir578UiQEeiXvb4RukxkGQ"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_8lBEcEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.selectall" label="Select All" command="_isM24EiQEeiXvb4RukxkGQ"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_83dfUEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.toggleblockselection" label=""/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_83dfUEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.toggleblockselection" label="Toggle Block Selection" command="_4iZtoE6wEei-PrRu7aAnGw"/>
         <children xsi:type="menu:MenuSeparator" xmi:id="_9RqIAEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.8"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_-RoXQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.findnext" label="Find Next" command="_7GrzUEiREeiXvb4RukxkGQ"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_-icacEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.findprevious" label="Find Previous" command="_7G-uQEiREeiXvb4RukxkGQ"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_-0l6YEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.incrementalfindnext" label="Incremental Find Next" command="_7HIfQEiREeiXvb4RukxkGQ"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="__HyjMEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.incrementalfindprevi" label="Incremental Find Previous" command="_7HIfQUiREeiXvb4RukxkGQ"/>
-        <children xsi:type="menu:MenuSeparator" xmi:id="__hrC0EiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.9"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_AKSiAEiQEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.12"/>
-        <children xsi:type="menu:MenuSeparator" xmi:id="_Anv6EEiQEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.10"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_DW_ukEiQEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.wordcompletion" label="Word Completion"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_DqyNQEiQEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem." label=""/>
-        <children xsi:type="menu:MenuSeparator" xmi:id="_EDC8QEiQEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.11"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_EnWjMEiQEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.15"/>
       </children>
       <children xsi:type="menu:Menu" xmi:id="_oB-2gEiVEeiBrKnO_tJOBg" elementId="fr.ema.dedal.rcp.menu.window" label="Window">
         <children xsi:type="menu:Menu" xmi:id="_pSUdAEiVEeiBrKnO_tJOBg" elementId="fr.ema.dedal.rcp.menu.editor" label="Editor">
@@ -82,11 +78,11 @@
           <children xsi:type="menu:HandledMenuItem" xmi:id="_t6rIMEiVEeiBrKnO_tJOBg" elementId="fr.ema.dedal.rcp.handledmenuitem.zoomout" label="Zoom Out" command="_7HbaMEiREeiXvb4RukxkGQ"/>
         </children>
         <children xsi:type="menu:Menu" xmi:id="_plzZsEiVEeiBrKnO_tJOBg" elementId="fr.ema.dedal.rcp.menu.appearance" label="Appearance">
-          <children xsi:type="menu:HandledMenuItem" xmi:id="_uMYjQEiVEeiBrKnO_tJOBg" elementId="fr.ema.dedal.rcp.handledmenuitem.5"/>
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_uMYjQEiVEeiBrKnO_tJOBg" elementId="fr.ema.dedal.rcp.handledmenuitem.hideshowtrimbars" label="Hide/Show TrimBars" command="_TafGYE7dEeiBPu4GrIa0sg"/>
         </children>
       </children>
     </mainMenu>
-    <sharedElements xsi:type="advanced:Area" xmi:id="_Hmg4kNSjEeGwXp2p959l3w" elementId="org.eclipse.ui.editors">
+    <sharedElements xsi:type="advanced:Area" xmi:id="_Hmg4kNSjEeGwXp2p959l3w" elementId="org.eclipse.ui.editorss" selectedElement="_HmhfoNSjEeGwXp2p959l3w">
       <children xsi:type="basic:PartStack" xmi:id="_HmhfoNSjEeGwXp2p959l3w" elementId="org.eclipse.e4.primaryDataStack">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
@@ -128,6 +124,22 @@
       </menus>
       <toolbar xmi:id="_pQVvsklIEeiER-p5RDN9lA" elementId="org.eclipse.ui.views.ContentOutline"/>
     </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_2y05UE6jEeikmth0mebhXA" elementId="org.eclipse.sirius.ui.tools.views.model.explorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Model Explorer" iconURI="" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:org.eclipse.sirius.category</tags>
+      <menus xmi:id="_2y05UU6jEeikmth0mebhXA" elementId="org.eclipse.sirius.ui.tools.views.model.explorer">
+        <tags>ViewMenu</tags>
+      </menus>
+      <toolbar xmi:id="_2y05Uk6jEeikmth0mebhXA" elementId="org.eclipse.sirius.ui.tools.views.model.explorer"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_sSqhsE6tEei-PrRu7aAnGw" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/$nl$/icons/full/eview16/problems_view.png" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:org.eclipse.ui</tags>
+      <menus xmi:id="_sSqhsU6tEei-PrRu7aAnGw" elementId="org.eclipse.ui.views.ProblemView">
+        <tags>ViewMenu</tags>
+      </menus>
+      <toolbar xmi:id="_sSqhsk6tEei-PrRu7aAnGw" elementId="org.eclipse.ui.views.ProblemView"/>
+    </sharedElements>
     <trimBars xmi:id="_VP1HwNTAEeGTY-uOtVc6Mg" elementId="org.eclipse.ui.trim.status" side="Bottom">
       <children xsi:type="menu:ToolControl" xmi:id="_VP1u0NTAEeGTY-uOtVc6Mg" elementId="org.eclipse.ui.StatusLine" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
         <tags>stretch</tags>
@@ -135,13 +147,9 @@
       <children xsi:type="menu:ToolControl" xmi:id="_VQKe8NTAEeGTY-uOtVc6Mg" elementId="org.eclipse.ui.HeapStatus" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim"/>
       <children xsi:type="menu:ToolControl" xmi:id="_VQRMoNTAEeGTY-uOtVc6Mg" elementId="org.eclipse.ui.ProgressBar" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim"/>
     </trimBars>
-    <trimBars xmi:id="_yH754En1EeiCW-rwu00Oeg" elementId="org.eclipse.ui.trim.status ">
-      <children xsi:type="menu:ToolBar" xmi:id="_ztEEoEn1EeiCW-rwu00Oeg" elementId="fr.ema.dedal.rcp.toolbar.0">
-        <children xsi:type="menu:HandledToolItem" xmi:id="_0ZIgcEn1EeiCW-rwu00Oeg" elementId="fr.ema.dedal.rcp.handledtoolitem.save" label="Save" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/eclipse16.png" command="_6GpAcEkyEeiER-p5RDN9lA">
-          <menu xmi:id="_5cjqIEoNEei---2QLmMJbw" elementId="fr.ema.dedal.rcp.menu.1">
-            <children xsi:type="menu:HandledMenuItem" xmi:id="_6WwBgEoNEei---2QLmMJbw" elementId="fr.ema.dedal.rcp.handledmenuitem.save" label="Save" command="_6GpAcEkyEeiER-p5RDN9lA"/>
-          </menu>
-        </children>
+    <trimBars xmi:id="_W__vME4GEeiQY5SLpyeK7w" elementId="fr.ema.dedal.rcp.trimbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="_XfE34E4GEeiQY5SLpyeK7w" elementId="fr.ema.dedal.rcp.toolbar.0">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_YDyHcE4GEeiQY5SLpyeK7w" elementId="fr.ema.dedal.rcp.handledtoolitem.save" label="Save" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/save.gif" command="_6GpAcEkyEeiER-p5RDN9lA"/>
       </children>
     </trimBars>
   </children>
@@ -150,7 +158,7 @@
     <children xmi:id="_VnmactSzEeGBn6dQ9VPexA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_Vnmac9SzEeGBn6dQ9VPexA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
-  <descriptors xmi:id="_9E9jYNS4EeGBn6dQ9VPexA" elementId="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources//icons/full/eview16/resource_persp.gif" category="org.eclipse.e4.primaryNavigationStack" dirtyable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+  <descriptors xmi:id="_9E9jYNS4EeGBn6dQ9VPexA" elementId="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources//icons/full/eview16/resource_persp.png" category="General" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
     <tags>View</tags>
     <tags>categoryTag:General</tags>
   </descriptors>
@@ -171,6 +179,18 @@
       <tags>ViewMenu</tags>
     </menus>
     <toolbar xmi:id="_koEkEklIEeiER-p5RDN9lA" elementId="org.eclipse.ui.views.ContentOutline"/>
+  </descriptors>
+  <descriptors xmi:id="_5tmoYE6jEeikmth0mebhXA" elementId="org.eclipse.sirius.ui.tools.views.model.explorer" label="Model Explorer" iconURI="" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <menus xmi:id="_5tmoYU6jEeikmth0mebhXA" elementId="org.eclipse.sirius.ui.tools.views.model.explorer">
+      <tags>ViewMenu</tags>
+    </menus>
+    <toolbar xmi:id="_5tmoYk6jEeikmth0mebhXA" elementId="org.eclipse.sirius.ui.tools.views.model.explorer"/>
+  </descriptors>
+  <descriptors xmi:id="_uC03wE6tEei-PrRu7aAnGw" elementId="org.eclipse.ui.views.ProblemView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/$nl$/icons/full/eview16/problems_view.png" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <menus xmi:id="_uC03wU6tEei-PrRu7aAnGw" elementId="org.eclipse.ui.views.ProblemView">
+      <tags>ViewMenu</tags>
+    </menus>
+    <toolbar xmi:id="_uC03wk6tEei-PrRu7aAnGw" elementId="org.eclipse.ui.views.ProblemView"/>
   </descriptors>
   <commands xmi:id="_9M7yUEiKEeiXvb4RukxkGQ" elementId="org.eclipse.ui.file.saveAll" commandName="%command.saveAll.name" description="%command.saveAll.description"/>
   <commands xmi:id="_TmWrYEiLEeiXvb4RukxkGQ" elementId="org.eclipse.ui.file.exit" commandName="%command.exit.name" description="%command.exit.description"/>
@@ -193,8 +213,11 @@
   <commands xmi:id="_7HbaMEiREeiXvb4RukxkGQ" elementId="org.eclipse.ui.edit.text.zoomOut" commandName="%command.zoomOut.name" description="%command.zoomOut.description"/>
   <commands xmi:id="_q70U8EiWEeiBrKnO_tJOBg" elementId="org.eclipse.ui.edit.text.toggleWordWrap" commandName="%toggleWordWrap.label" description="%toggleWordWrap.description"/>
   <commands xmi:id="_q8HP4EiWEeiBrKnO_tJOBg" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters" commandName="%showWhitespaceCharacters.label" description="%showWhitespaceCharacters.description"/>
-  <commands xmi:id="_rzkxcEiYEeiBrKnO_tJOBg" elementId="org.eclipse.ui.window.showKeyAssist" commandName="%command.showKeyAssist.name" description="%command.showKeyAssist.description"/>
   <commands xmi:id="_6GpAcEkyEeiER-p5RDN9lA" elementId="org.eclipse.ui.file.save" commandName="%command.save.name" description="%command.save.description"/>
+  <commands xmi:id="_4iZtoE6wEei-PrRu7aAnGw" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode" commandName="%toggleBlockSelectionMode.label" description="%toggleBlockSelectionMode.description"/>
+  <commands xmi:id="_TafGYE7dEeiBPu4GrIa0sg" elementId="org.eclipse.ui.window.hidetrimbars" commandName="%command.windowsHideTrimbars.name" description="%command.windowsHideTrimbars.description"/>
+  <commands xmi:id="_Ve4xoE7eEeiBPu4GrIa0sg" elementId="org.eclipse.ui.edit.text.delimiter.windows" commandName="%convertDelimiters.Windows.name" description="%convertDelimiters.Windows.description"/>
+  <commands xmi:id="_VfP-AE7eEeiBPu4GrIa0sg" elementId="org.eclipse.ui.edit.text.delimiter.unix" commandName="%convertDelimiters.Unix.name" description="%convertDelimiters.Unix.description"/>
   <addons xmi:id="_VnmadNSzEeGBn6dQ9VPexA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_VnmaddSzEeGBn6dQ9VPexA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_VnmadtSzEeGBn6dQ9VPexA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

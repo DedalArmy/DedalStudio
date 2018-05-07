@@ -59,7 +59,7 @@ public class DedalEditorAdvisor extends WorkbenchAdvisor {
 	 */
 	@Override
 	public String getInitialWindowPerspectiveId() {
-		return Perspective.ID_PERSPECTIVE;
+		return null;
 	}
 
 	/**
