@@ -88,15 +88,15 @@ public class DedalEditorAdvisor extends WorkbenchAdvisor {
 		configurer_p.declareImage(symbolicName, desc, shared);
 	}
 
-	/**
-	 * @see org.eclipse.ui.application.WorkbenchAdvisor#createWorkbenchWindowAdvisor(org.eclipse.ui.application.IWorkbenchWindowConfigurer)
-	 *      <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public WorkbenchWindowAdvisor createWorkbenchWindowAdvisor(IWorkbenchWindowConfigurer configurer) {
-		return new WindowAdvisor(configurer);
-	}
+//	/**
+//	 * @see org.eclipse.ui.application.WorkbenchAdvisor#createWorkbenchWindowAdvisor(org.eclipse.ui.application.IWorkbenchWindowConfigurer)
+//	 *      <!-- begin-user-doc --> <!-- end-user-doc -->
+//	 * @generated
+//	 */
+//	@Override
+//	public WorkbenchWindowAdvisor createWorkbenchWindowAdvisor(IWorkbenchWindowConfigurer configurer) {
+//		return new WindowAdvisor(configurer);
+//	}
 
 	/**
 	 * The default file extension filters for use in dialogs. <!--

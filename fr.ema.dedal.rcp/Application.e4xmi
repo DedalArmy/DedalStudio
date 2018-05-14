@@ -5,15 +5,15 @@
       <children xsi:type="advanced:Perspective" xmi:id="_VnmakNSzEeGBn6dQ9VPexA" elementId="test.rcp.perspective" label="My Perspective" iconURI="">
         <tags>Perspective</tags>
         <tags>categoryTag:General</tags>
-        <children xsi:type="basic:PartSashContainer" xmi:id="_VnnBgNSzEeGBn6dQ9VPexA" containerData="95" horizontal="true">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_VnnBgNSzEeGBn6dQ9VPexA" containerData="" horizontal="true">
           <children xsi:type="basic:PartSashContainer" xmi:id="_yKmU8ElIEeiER-p5RDN9lA" elementId="fr.ema.dedal.rcp.partsashcontainer.0" containerData="15">
             <children xsi:type="basic:PartStack" xmi:id="_VnnBgdSzEeGBn6dQ9VPexA" containerData="80">
               <tags>newtablook</tags>
               <tags>org.eclipse.e4.primaryNavigationStack</tags>
-              <children xsi:type="advanced:Placeholder" xmi:id="_tbQF8E6jEeikmth0mebhXA" elementId="fr.ema.dedal.rcp.placeholder.2" ref="_sS7Q8NS1EeGBn6dQ9VPexA"/>
+              <children xsi:type="advanced:Placeholder" xmi:id="_tbQF8E6jEeikmth0mebhXA" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_sS7Q8NS1EeGBn6dQ9VPexA"/>
             </children>
             <children xsi:type="basic:PartStack" xmi:id="_0E-W8ElIEeiER-p5RDN9lA" elementId="fr.ema.dedal.rcp.partstack.0" containerData="20">
-              <children xsi:type="advanced:Placeholder" xmi:id="_45Ls0ElIEeiER-p5RDN9lA" elementId="fr.ema.dedal.rcp.placeholder.1" ref="_pQVvsElIEeiER-p5RDN9lA"/>
+              <children xsi:type="advanced:Placeholder" xmi:id="_45Ls0ElIEeiER-p5RDN9lA" elementId="org.eclipse.ui.views.ContentOutline" ref="_pQVvsElIEeiER-p5RDN9lA"/>
             </children>
           </children>
           <children xsi:type="basic:PartSashContainer" xmi:id="_bTQ1YNS2EeGBn6dQ9VPexA" elementId="" containerData="70">
@@ -52,6 +52,7 @@
         <children xsi:type="menu:MenuSeparator" xmi:id="_KbhWsEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.5"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_K7EZcEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.restart" label="Restart" command="_dCl08EiOEeiXvb4RukxkGQ"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_LUNSMEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.exit" label="Exit" command="_TmWrYEiLEeiXvb4RukxkGQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_siPdUFNkEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.handledmenuitem.savetest" label="save test" command="_ogEBUFNkEei157YTiuhwEw"/>
       </children>
       <children xsi:type="menu:Menu" xmi:id="_1h61IEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menu.edit" label="Edit">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_3n97oEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.undotyping" label="Undo Typing" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/undo_edit.gif" command="_irTfAEiQEeiXvb4RukxkGQ"/>
@@ -147,12 +148,13 @@
       <children xsi:type="menu:ToolControl" xmi:id="_VQKe8NTAEeGTY-uOtVc6Mg" elementId="org.eclipse.ui.HeapStatus" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim"/>
       <children xsi:type="menu:ToolControl" xmi:id="_VQRMoNTAEeGTY-uOtVc6Mg" elementId="org.eclipse.ui.ProgressBar" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim"/>
     </trimBars>
-    <trimBars xmi:id="_W__vME4GEeiQY5SLpyeK7w" elementId="fr.ema.dedal.rcp.trimbar.0">
-      <children xsi:type="menu:ToolBar" xmi:id="_XfE34E4GEeiQY5SLpyeK7w" elementId="fr.ema.dedal.rcp.toolbar.0">
-        <children xsi:type="menu:HandledToolItem" xmi:id="_YDyHcE4GEeiQY5SLpyeK7w" elementId="fr.ema.dedal.rcp.handledtoolitem.save" label="Save" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/save.gif" command="_6GpAcEkyEeiER-p5RDN9lA"/>
+    <trimBars xmi:id="__M2kgFNzEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.trimbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="__xaDEFNzEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.toolbar.0">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_A4ltkFN0Eei157YTiuhwEw" elementId="fr.ema.dedal.rcp.handledtoolitem.save" label="Save" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/save.gif" command="_6GpAcEkyEeiER-p5RDN9lA"/>
       </children>
     </trimBars>
   </children>
+  <handlers xmi:id="_qHggQFNkEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.handler.0" contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.SaveAction" command="_ogEBUFNkEei157YTiuhwEw"/>
   <bindingTables xmi:id="_VnmafNSzEeGBn6dQ9VPexA" bindingContext="_VnmacdSzEeGBn6dQ9VPexA"/>
   <rootContext xmi:id="_VnmacdSzEeGBn6dQ9VPexA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_VnmactSzEeGBn6dQ9VPexA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
@@ -218,6 +220,7 @@
   <commands xmi:id="_TafGYE7dEeiBPu4GrIa0sg" elementId="org.eclipse.ui.window.hidetrimbars" commandName="%command.windowsHideTrimbars.name" description="%command.windowsHideTrimbars.description"/>
   <commands xmi:id="_Ve4xoE7eEeiBPu4GrIa0sg" elementId="org.eclipse.ui.edit.text.delimiter.windows" commandName="%convertDelimiters.Windows.name" description="%convertDelimiters.Windows.description"/>
   <commands xmi:id="_VfP-AE7eEeiBPu4GrIa0sg" elementId="org.eclipse.ui.edit.text.delimiter.unix" commandName="%convertDelimiters.Unix.name" description="%convertDelimiters.Unix.description"/>
+  <commands xmi:id="_ogEBUFNkEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.command.save" commandName="save"/>
   <addons xmi:id="_VnmadNSzEeGBn6dQ9VPexA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_VnmaddSzEeGBn6dQ9VPexA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_VnmadtSzEeGBn6dQ9VPexA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
