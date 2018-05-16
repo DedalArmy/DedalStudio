@@ -18,6 +18,9 @@
           </children>
           <children xsi:type="basic:PartSashContainer" xmi:id="_bTQ1YNS2EeGBn6dQ9VPexA" elementId="" containerData="70">
             <children xsi:type="advanced:Placeholder" xmi:id="_hP-EYNS2EeGBn6dQ9VPexA" elementId="org.eclipse.ui.editorss" ref="_Hmg4kNSjEeGwXp2p959l3w"/>
+            <children xsi:type="basic:PartStack" xmi:id="_1yQ2IFkVEei49tIrWBQsIA" elementId="fr.ema.dedal.rcp.partstack.1">
+              <children xsi:type="basic:Part" xmi:id="_3bjIIFkVEei49tIrWBQsIA" elementId="fr.ema.dedal.rcp.part.0" contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.ComponentInspectorAction"/>
+            </children>
             <children xsi:type="basic:PartStack" xmi:id="_qAHrYNS2EeGBn6dQ9VPexA" elementId="org.eclipse.ui.views.PropertySheetMStack" containerData="3400" selectedElement="_soNH8NS2EeGBn6dQ9VPexA">
               <tags>newtablook</tags>
               <tags>org.eclipse.e4.secondaryDataStack</tags>
