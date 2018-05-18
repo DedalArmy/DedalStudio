@@ -18,9 +18,6 @@
           </children>
           <children xsi:type="basic:PartSashContainer" xmi:id="_bTQ1YNS2EeGBn6dQ9VPexA" elementId="" containerData="70">
             <children xsi:type="advanced:Placeholder" xmi:id="_hP-EYNS2EeGBn6dQ9VPexA" elementId="org.eclipse.ui.editorss" ref="_Hmg4kNSjEeGwXp2p959l3w"/>
-            <children xsi:type="basic:PartStack" xmi:id="_1yQ2IFkVEei49tIrWBQsIA" elementId="fr.ema.dedal.rcp.partstack.1">
-              <children xsi:type="basic:Part" xmi:id="_3bjIIFkVEei49tIrWBQsIA" elementId="fr.ema.dedal.rcp.part.0" contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.ComponentInspectorAction"/>
-            </children>
             <children xsi:type="basic:PartStack" xmi:id="_qAHrYNS2EeGBn6dQ9VPexA" elementId="org.eclipse.ui.views.PropertySheetMStack" containerData="3400" selectedElement="_soNH8NS2EeGBn6dQ9VPexA">
               <tags>newtablook</tags>
               <tags>org.eclipse.e4.secondaryDataStack</tags>
@@ -154,6 +151,7 @@
     <trimBars xmi:id="__M2kgFNzEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.trimbar.0">
       <children xsi:type="menu:ToolBar" xmi:id="__xaDEFNzEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.toolbar.0">
         <children xsi:type="menu:HandledToolItem" xmi:id="_A4ltkFN0Eei157YTiuhwEw" elementId="fr.ema.dedal.rcp.handledtoolitem.save" label="Save" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/save.gif" command="_6GpAcEkyEeiER-p5RDN9lA"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_jdJtcFp9EeiuTrRIcFJJWQ" elementId="fr.ema.dedal.rcp.directtoolitem.componentinspector" label="Component Inspector" contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.ComponentInspectorDialogHandler"/>
       </children>
     </trimBars>
   </children>
