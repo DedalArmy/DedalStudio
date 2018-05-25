@@ -9,7 +9,6 @@ import org.eclipse.core.runtime.FileLocator;
 import org.eclipse.core.runtime.Path;
 import org.eclipse.e4.ui.di.Focus;
 import org.eclipse.emf.common.util.URI;
-import org.eclipse.jface.dialogs.Dialog;
 import org.eclipse.jface.dialogs.IMessageProvider;
 import org.eclipse.jface.dialogs.TitleAreaDialog;
 import org.eclipse.jface.resource.ImageDescriptor;
@@ -26,20 +25,16 @@ import org.eclipse.jface.viewers.TreeViewerColumn;
 import org.eclipse.jface.viewers.Viewer;
 import org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.IStyledLabelProvider;
 import org.eclipse.swt.SWT;
-import org.eclipse.swt.events.SelectionAdapter;
-import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.graphics.Image;
 import org.eclipse.swt.graphics.Point;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
-import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Shell;
 import org.osgi.framework.Bundle;
 import org.osgi.framework.FrameworkUtil;
 
-import fr.ema.dedal.componentinspector.main.Main;
 
 public class InspectorDialog extends TitleAreaDialog {
 
@@ -250,12 +245,9 @@ public class InspectorDialog extends TitleAreaDialog {
 		ISelection selection = viewer.getSelection();
 		String location = selection.toString();
 		location = location.substring(1, location.length() - 1);
-
 		if (!location.equals("empty selection")) {
-			location = location.replace("\\", "/");
 			System.out.println(location);
-			System.out.println(URI.createURI(location, true));
-			Main.main(new String[] {location});
+			fr.ema.dedal.componentinspector.main.Main.main(new String[] {"-lib", location});
 			super.okPressed();
 		}
 	}

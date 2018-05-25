@@ -7,6 +7,5 @@
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="D:/A_Sauver/Bureau/eclipse-SDK-4.7.3a-win32-x86_64/eclipse/dropins/plugins/fr.ema.dedal.componentinspector_1.0.0.201804251354.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

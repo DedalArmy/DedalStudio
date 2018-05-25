@@ -14,10 +14,22 @@
   <extension id="product_test" point="org.eclipse.core.runtime.products">
   <product
         application="fr.ema.dedal.rcp.application"
-        name="My Product">
-    <property name="appName" value="My Product"> </property>
+        name="Dedal Studio">
+    <property name="appName" value="Dedal Studio"> </property>
     <property name="applicationXMI" value="fr.ema.dedal.rcp/Application.e4xmi"> </property>
   </product>
 </extension>
+  <extension
+        id="product"
+        point="org.eclipse.core.runtime.products">
+     <product
+           application="fr.ema.dedal.rcp.application"
+           name="Dedal Studio">
+        <property
+              name="appName"
+              value="Dedal Studio">
+        </property>
+     </product>
+  </extension>
 
 </plugin>
