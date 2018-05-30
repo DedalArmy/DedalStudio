@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Dedal Studio" uid="test.rcp.product" id="fr.ema.dedal.rcp.product_test" application="fr.ema.dedal.rcp.application" useFeatures="false" includeLaunchers="true">
+<product name="Dedal Studio" uid="test.rcp.product" id="fr.ema.dedal.rcp.product_test" application="fr.ema.dedal.rcp.application" useFeatures="false" includeLaunchers="false">
+
 
    <configIni use="default">
    </configIni>
@@ -15,6 +16,7 @@
 
    <windowImages/>
 
+
    <launcher name="Dedal Studio">
       <win useIco="false">
          <bmp
@@ -25,9 +27,11 @@
       </win>
    </launcher>
 
+
    <vm>
       <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</windows>
    </vm>
+
 
    <plugins>
       <plugin id="com.google.gson"/>
@@ -54,18 +58,8 @@
       <plugin id="lpg.runtime.java"/>
       <plugin id="org.antlr.runtime" version="3.2.0.v201101311130"/>
       <plugin id="org.apache.ant"/>
-      <plugin id="org.apache.batik.bridge"/>
-      <plugin id="org.apache.batik.css" version="1.6.0.v201011041432"/>
-      <plugin id="org.apache.batik.dom"/>
-      <plugin id="org.apache.batik.dom.svg"/>
-      <plugin id="org.apache.batik.ext.awt"/>
-      <plugin id="org.apache.batik.parser"/>
-      <plugin id="org.apache.batik.pdf"/>
-      <plugin id="org.apache.batik.svggen"/>
-      <plugin id="org.apache.batik.transcoder"/>
-      <plugin id="org.apache.batik.util" version="1.6.0.v201011041432"/>
-      <plugin id="org.apache.batik.util.gui" version="1.6.0.v201011041432"/>
-      <plugin id="org.apache.batik.xml" version="1.6.0.v201011041432"/>
+      <plugin id="org.apache.batik.css"/>
+      <plugin id="org.apache.batik.util"/>
       <plugin id="org.apache.commons.cli"/>
       <plugin id="org.apache.commons.jxpath"/>
       <plugin id="org.apache.commons.lang"/>
@@ -78,18 +72,14 @@
       <plugin id="org.apache.lucene.analyzers-smartcn"/>
       <plugin id="org.apache.lucene.core"/>
       <plugin id="org.apache.lucene.misc"/>
-      <plugin id="org.apache.xerces"/>
       <plugin id="org.apache.xml.resolver"/>
-      <plugin id="org.apache.xml.serializer"/>
       <plugin id="org.apiguardian"/>
       <plugin id="org.eclipse.acceleo.annotations"/>
       <plugin id="org.eclipse.acceleo.common"/>
       <plugin id="org.eclipse.acceleo.engine"/>
       <plugin id="org.eclipse.acceleo.model"/>
-      <plugin id="org.eclipse.acceleo.parser"/>
       <plugin id="org.eclipse.acceleo.profiler"/>
       <plugin id="org.eclipse.acceleo.query"/>
-      <plugin id="org.eclipse.acceleo.ui.interpreter"/>
       <plugin id="org.eclipse.ant.core"/>
       <plugin id="org.eclipse.ant.launching"/>
       <plugin id="org.eclipse.ant.ui"/>
@@ -205,32 +195,17 @@
       <plugin id="org.eclipse.gmf.runtime.common.core"/>
       <plugin id="org.eclipse.gmf.runtime.common.ui"/>
       <plugin id="org.eclipse.gmf.runtime.common.ui.action"/>
-      <plugin id="org.eclipse.gmf.runtime.common.ui.action.ide"/>
-      <plugin id="org.eclipse.gmf.runtime.common.ui.printing"/>
-      <plugin id="org.eclipse.gmf.runtime.common.ui.printing.win32" fragment="true"/>
       <plugin id="org.eclipse.gmf.runtime.common.ui.services"/>
       <plugin id="org.eclipse.gmf.runtime.common.ui.services.action"/>
-      <plugin id="org.eclipse.gmf.runtime.common.ui.services.properties"/>
       <plugin id="org.eclipse.gmf.runtime.diagram.core"/>
       <plugin id="org.eclipse.gmf.runtime.diagram.ui"/>
-      <plugin id="org.eclipse.gmf.runtime.diagram.ui.actions"/>
-      <plugin id="org.eclipse.gmf.runtime.diagram.ui.printing"/>
-      <plugin id="org.eclipse.gmf.runtime.diagram.ui.printing.render"/>
-      <plugin id="org.eclipse.gmf.runtime.diagram.ui.properties"/>
-      <plugin id="org.eclipse.gmf.runtime.diagram.ui.providers"/>
-      <plugin id="org.eclipse.gmf.runtime.diagram.ui.providers.ide"/>
-      <plugin id="org.eclipse.gmf.runtime.diagram.ui.render"/>
-      <plugin id="org.eclipse.gmf.runtime.diagram.ui.resources.editor"/>
-      <plugin id="org.eclipse.gmf.runtime.diagram.ui.resources.editor.ide"/>
       <plugin id="org.eclipse.gmf.runtime.draw2d.ui"/>
       <plugin id="org.eclipse.gmf.runtime.draw2d.ui.render"/>
-      <plugin id="org.eclipse.gmf.runtime.draw2d.ui.render.awt"/>
       <plugin id="org.eclipse.gmf.runtime.emf.clipboard.core"/>
       <plugin id="org.eclipse.gmf.runtime.emf.commands.core"/>
       <plugin id="org.eclipse.gmf.runtime.emf.core"/>
       <plugin id="org.eclipse.gmf.runtime.emf.type.core"/>
       <plugin id="org.eclipse.gmf.runtime.emf.ui"/>
-      <plugin id="org.eclipse.gmf.runtime.emf.ui.properties"/>
       <plugin id="org.eclipse.gmf.runtime.gef.ui"/>
       <plugin id="org.eclipse.gmf.runtime.notation"/>
       <plugin id="org.eclipse.help"/>
@@ -280,27 +255,17 @@
       <plugin id="org.eclipse.sirius"/>
       <plugin id="org.eclipse.sirius.common"/>
       <plugin id="org.eclipse.sirius.common.acceleo.aql"/>
-      <plugin id="org.eclipse.sirius.common.acceleo.mtl"/>
       <plugin id="org.eclipse.sirius.common.ui"/>
-      <plugin id="org.eclipse.sirius.diagram"/>
-      <plugin id="org.eclipse.sirius.diagram.formatdata"/>
-      <plugin id="org.eclipse.sirius.diagram.layoutdata"/>
-      <plugin id="org.eclipse.sirius.diagram.ui"/>
       <plugin id="org.eclipse.sirius.ecore.extender"/>
-      <plugin id="org.eclipse.sirius.editor"/>
       <plugin id="org.eclipse.sirius.ext.base"/>
-      <plugin id="org.eclipse.sirius.ext.draw2d"/>
       <plugin id="org.eclipse.sirius.ext.e3.ui"/>
       <plugin id="org.eclipse.sirius.ext.emf"/>
       <plugin id="org.eclipse.sirius.ext.emf.tx"/>
       <plugin id="org.eclipse.sirius.ext.emf.ui"/>
-      <plugin id="org.eclipse.sirius.ext.gef"/>
-      <plugin id="org.eclipse.sirius.ext.gmf.runtime"/>
       <plugin id="org.eclipse.sirius.ext.jface"/>
       <plugin id="org.eclipse.sirius.ext.swt"/>
       <plugin id="org.eclipse.sirius.table"/>
       <plugin id="org.eclipse.sirius.ui"/>
-      <plugin id="org.eclipse.sirius.ui.editor"/>
       <plugin id="org.eclipse.stardust.ide.thirdparty.javax.mail"/>
       <plugin id="org.eclipse.swt"/>
       <plugin id="org.eclipse.swt.win32.win32.x86_64" fragment="true"/>
@@ -390,15 +355,9 @@
       <feature id="org.eclipse.e4.rcp"/>
       <feature id="org.eclipse.emf.ecore"/>
       <feature id="org.eclipse.emf.common"/>
+      <feature id="org.eclipse.rcp" version="4.7.3.v20180330-0640"/>
    </features>
 
-   <configurations>
-      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
-      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
-   </configurations>
 
    <preferencesInfo>
       <targetfile overwrite="false"/>

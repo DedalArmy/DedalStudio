@@ -5,10 +5,15 @@ import java.net.URL;
 import java.text.DateFormat;
 import java.util.Date;
 
+import org.eclipse.core.resources.IProject;
+import org.eclipse.core.resources.IResource;
+import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.FileLocator;
+import org.eclipse.core.runtime.IAdaptable;
+import org.eclipse.core.runtime.IPath;
+import org.eclipse.core.runtime.NullProgressMonitor;
 import org.eclipse.core.runtime.Path;
 import org.eclipse.e4.ui.di.Focus;
-import org.eclipse.emf.common.util.URI;
 import org.eclipse.jface.dialogs.IMessageProvider;
 import org.eclipse.jface.dialogs.TitleAreaDialog;
 import org.eclipse.jface.resource.ImageDescriptor;
@@ -17,6 +22,7 @@ import org.eclipse.jface.resource.LocalResourceManager;
 import org.eclipse.jface.resource.ResourceManager;
 import org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider;
 import org.eclipse.jface.viewers.ISelection;
+import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.jface.viewers.ITreeContentProvider;
 import org.eclipse.jface.viewers.LabelProvider;
 import org.eclipse.jface.viewers.StyledString;
@@ -32,9 +38,10 @@ import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Shell;
+import org.eclipse.ui.IWorkbenchWindow;
+import org.eclipse.ui.PlatformUI;
 import org.osgi.framework.Bundle;
 import org.osgi.framework.FrameworkUtil;
-
 
 public class InspectorDialog extends TitleAreaDialog {
 
@@ -59,7 +66,7 @@ public class InspectorDialog extends TitleAreaDialog {
 		Composite area = (Composite) super.createDialogArea(parent);
 		Composite container = new Composite(area, SWT.NONE);
 		container.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true));
-		GridLayout layout = new GridLayout(1,true);
+		GridLayout layout = new GridLayout(1, true);
 		container.setLayout(layout);
 
 		viewer = new TreeViewer(container, SWT.MULTI | SWT.H_SCROLL | SWT.V_SCROLL);
@@ -240,16 +247,48 @@ public class InspectorDialog extends TitleAreaDialog {
 		return new Point(450, 300);
 	}
 
+
 	@Override
 	protected void okPressed() {
 		ISelection selection = viewer.getSelection();
 		String location = selection.toString();
 		location = location.substring(1, location.length() - 1);
 		if (!location.equals("empty selection")) {
+			new File(getSelectedProjectPath() + "/generated_metrics_results").mkdirs();
+			new File(getSelectedProjectPath() + "/generated").mkdirs();
 			System.out.println(location);
-			fr.ema.dedal.componentinspector.main.Main.main(new String[] {"-lib", location});
 			super.okPressed();
+			fr.ema.dedal.componentinspector.main.Main.laucnhReconstruction((new String[] { "-lib", location }), "", "",
+					"", getSelectedProjectPath());
+			
+			try {
+				getSelectedProject().refreshLocal(IResource.DEPTH_INFINITE, new NullProgressMonitor() );
+			} catch (CoreException e) {
+				e.printStackTrace();
+			}
+			
 		}
 	}
 
+	private String getSelectedProjectPath() {
+		if (getSelectedProject() != null) {
+			IProject project = getSelectedProject();
+			IPath path = project.getLocation();
+			return path.toString();
+		}
+		return "";
+	}
+
+	protected IProject getSelectedProject() {
+		IWorkbenchWindow window = PlatformUI.getWorkbench().getActiveWorkbenchWindow();
+		if (window != null) {
+			IStructuredSelection selection = (IStructuredSelection) window.getSelectionService().getSelection();
+			Object firstElement = selection.getFirstElement();
+			if (firstElement instanceof IAdaptable) {
+				IProject project = (IProject) ((IAdaptable) firstElement).getAdapter(IProject.class);
+				return project;
+			}
+		}
+		return null;
+	}
 }

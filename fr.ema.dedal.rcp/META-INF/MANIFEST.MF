@@ -43,7 +43,8 @@ Require-Bundle: org.eclipse.ui,
  fr.ema.dedal.design;bundle-version="1.0.0",
  org.eclipse.swt,
  javax.annotation;bundle-version="1.2.0",
- org.eclipse.e4.ui.di;bundle-version="1.2.100"
+ org.eclipse.e4.ui.di;bundle-version="1.2.100",
+ org.eclipse.core.commands
 Bundle-ManifestVersion: 2
 Bundle-Activator: test.rcp.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
