@@ -21,6 +21,7 @@ import test.rcp.DedalEditorAdvisor;
  */
 public class Application implements IApplication {
 
+	
 	public Object start(IApplicationContext context) throws Exception {
 		String oclDelegateURI = OCLConstants.OCL_DELEGATE_URI;
 		EOperation.Internal.InvocationDelegate.Factory.Registry.INSTANCE.put(oclDelegateURI,
