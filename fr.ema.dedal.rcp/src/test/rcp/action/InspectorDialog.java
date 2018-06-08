@@ -56,7 +56,7 @@ public class InspectorDialog extends TitleAreaDialog {
 	@Override
 	public void create() {
 		super.create();
-		setTitle("Component Inspector");
+		setTitle("Architecture Reconstructor");
 		setMessage("Select the folder you want to inspect", IMessageProvider.INFORMATION);
 	}
 

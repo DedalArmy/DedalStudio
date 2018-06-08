@@ -52,7 +52,6 @@
         <children xsi:type="menu:MenuSeparator" xmi:id="_KbhWsEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.5"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_K7EZcEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.restart" label="Restart" command="_dCl08EiOEeiXvb4RukxkGQ"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_LUNSMEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.exit" label="Exit" command="_TmWrYEiLEeiXvb4RukxkGQ"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_siPdUFNkEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.handledmenuitem.savetest" label="save test" command="_ogEBUFNkEei157YTiuhwEw"/>
       </children>
       <children xsi:type="menu:Menu" xmi:id="_1h61IEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menu.edit" label="Edit">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_3n97oEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.undotyping" label="Undo Typing" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/undo_edit.gif" command="_irTfAEiQEeiXvb4RukxkGQ"/>
@@ -151,7 +150,7 @@
     <trimBars xmi:id="__M2kgFNzEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.trimbar.0">
       <children xsi:type="menu:ToolBar" xmi:id="__xaDEFNzEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.toolbar.0">
         <children xsi:type="menu:HandledToolItem" xmi:id="_A4ltkFN0Eei157YTiuhwEw" elementId="fr.ema.dedal.rcp.handledtoolitem.save" label="Save" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/save.gif" command="_6GpAcEkyEeiER-p5RDN9lA"/>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_jdJtcFp9EeiuTrRIcFJJWQ" elementId="fr.ema.dedal.rcp.directtoolitem.componentinspector" label="Component Inspector" contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.ComponentInspectorDialogHandler"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_jdJtcFp9EeiuTrRIcFJJWQ" elementId="fr.ema.dedal.rcp.directtoolitem.componentinspector" label="Architecture Reconstructor" contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.ComponentInspectorDialogHandler"/>
       </children>
     </trimBars>
   </children>

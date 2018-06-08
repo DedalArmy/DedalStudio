@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Téléchargements/eclipse-SDK-4.7.3a-win32-x86_64/eclipse/plugins/org.antlr.runtime_3.2.0.v201101311130.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
