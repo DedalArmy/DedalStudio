@@ -1963,13 +1963,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.objectweb.asm"
-         download-size="0"
-         install-size="0"
-         version="5.2.0.v20170126-0011"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.xml.serializer"
          download-size="0"
          install-size="0"
@@ -2118,6 +2111,13 @@
 
    <plugin
          id="org.eclipse.emf.ecore.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm"
          download-size="0"
          install-size="0"
          version="0.0.0"
