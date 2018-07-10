@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="test.rcp.Application">
+         </run>
+      </application>
+   </extension>
+  <extension id="product_test" point="org.eclipse.core.runtime.products">
+  <product
+        application="fr.ema.dedal.rcp.application"
+        name="Dedal Studio">
+    <property name="appName" value="Dedal Studio"> </property>
+    <property name="applicationXMI" value="fr.ema.dedal.rcp/Application.e4xmi"> </property>
+  </product>
+</extension>
+</plugin>
