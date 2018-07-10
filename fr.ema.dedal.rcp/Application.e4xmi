@@ -37,11 +37,6 @@
         <children xsi:type="menu:MenuSeparator" xmi:id="__L6DoEiOEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.0"/>
         <children xsi:type="menu:DirectMenuItem" xmi:id="_ADZFQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.directmenuitem.open" label="Open..." contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.OpenAction"/>
         <children xsi:type="menu:DirectMenuItem" xmi:id="_AhJYQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.directmenuitem.openuri" label="Open URI..." contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.OpenURIAction"/>
-        <children xsi:type="menu:MenuSeparator" xmi:id="_GdtdUEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.2"/>
-        <children xsi:type="menu:Menu" xmi:id="_B-LVoE7fEeiBPu4GrIa0sg" elementId="fr.ema.dedal.rcp.menu.1">
-          <children xsi:type="menu:HandledMenuItem" xmi:id="_EaEwUE7fEeiBPu4GrIa0sg" elementId="fr.ema.dedal.rcp.handledmenuitem.windows" label="Windows" command="_Ve4xoE7eEeiBPu4GrIa0sg"/>
-          <children xsi:type="menu:HandledMenuItem" xmi:id="_EuCOIE7fEeiBPu4GrIa0sg" elementId="fr.ema.dedal.rcp.handledmenuitem.unix" label="Unix" command="_VfP-AE7eEeiBPu4GrIa0sg"/>
-        </children>
         <children xsi:type="menu:MenuSeparator" xmi:id="_DSqcUE7fEeiBPu4GrIa0sg" elementId="fr.ema.dedal.rcp.menuseparator.1"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_HtAiAEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.close" label="Close" command="_dB__EEiOEeiXvb4RukxkGQ"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_IDUwQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.closeall" label="Close All" command="_dCJJAEiOEeiXvb4RukxkGQ"/>
