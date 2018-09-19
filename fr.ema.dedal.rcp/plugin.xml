@@ -14,8 +14,8 @@
   <extension id="product_test" point="org.eclipse.core.runtime.products">
   <product
         application="fr.ema.dedal.rcp.application"
-        name="Dedal Studio">
-    <property name="appName" value="Dedal Studio"> </property>
+        name="dedalstudio">
+    <property name="appName" value="dedalstudio"> </property>
     <property name="applicationXMI" value="fr.ema.dedal.rcp/Application.e4xmi"> </property>
   </product>
 </extension>
