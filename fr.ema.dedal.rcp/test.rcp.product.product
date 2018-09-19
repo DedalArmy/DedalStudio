@@ -52,6 +52,7 @@
       <feature id="org.eclipse.ecf.filetransfer.feature" version="3.14.0.v20180306-0429"/>
       <feature id="fr.ema.dedal.features" version="1.0.0.qualifier"/>
       <feature id="fr.ema.dedal.featuresForDedal" version="1.0.0.qualifier"/>
+      <feature id="org.eclipse.xtext.runtime"/>
    </features>
 
    <configurations>
