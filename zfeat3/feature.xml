@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="zfeat3"
-      label="Zfeat3"
+      id="fr.ema.dedal.featuresForDedal"
+      label="featuresForDedal"
       version="1.0.0.qualifier">
 
    <description url="http://www.example.com/description">
