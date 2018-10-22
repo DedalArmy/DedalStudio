@@ -47,13 +47,15 @@
       <feature id="org.eclipse.equinox.p2.rcp.feature"/>
       <feature id="org.eclipse.ecf.core.ssl.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
-      <feature id="org.eclipse.xtext.ui" version="2.14.0.v20180523-0937"/>
       <feature id="org.eclipse.rcp" version="4.8.0.v20180611-0656"/>
       <feature id="org.eclipse.platform" version="4.8.0.v20180611-0656"/>
       <feature id="org.eclipse.ecf.filetransfer.feature" version="3.14.0.v20180306-0429"/>
       <feature id="fr.ema.dedal.features" version="1.0.0.qualifier"/>
       <feature id="fr.ema.dedal.featuresForDedal" version="1.0.0.qualifier"/>
       <feature id="org.eclipse.xtext.runtime"/>
+      <feature id="org.eclipse.xtext.ui" version="2.14.0.v20180523-0937"/>
+      <feature id="de.prob2.ui.eclipse.feature" version="1.0.0.201504241041"/>
+      <feature id="org.eclipse.emf.mwe2.language.sdk" version="2.9.1.201705291011"/>
    </features>
 
    <configurations>
