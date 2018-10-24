@@ -15,9 +15,8 @@
 
    <windowImages/>
 
-   <launcher name="DedalStudio">
-      <win useIco="true">
-         <ico path="/fr.ema.dedal.rcp/icons/IconeDedalStudio_256x256-ConvertImage.ico"/>
+   <launcher name="Dedal Studio">
+      <win useIco="false">
          <bmp
             winSmallLow="/fr.ema.dedal.metamodel.editor/bmp/IconeDedalStudio_16x16.bmp"
             winMediumLow="/fr.ema.dedal.metamodel.editor/bmp/IconeDedalStudio_32x32.bmp"
