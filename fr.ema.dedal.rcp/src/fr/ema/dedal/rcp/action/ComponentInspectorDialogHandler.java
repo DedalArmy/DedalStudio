@@ -1,4 +1,4 @@
-package test.rcp.action;
+package fr.ema.dedal.rcp.action;
 
 import org.eclipse.core.resources.IProject;
 import org.eclipse.e4.core.di.annotations.Execute;

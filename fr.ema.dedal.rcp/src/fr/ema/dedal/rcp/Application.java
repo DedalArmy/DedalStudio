@@ -1,4 +1,4 @@
-package test.rcp;
+package fr.ema.dedal.rcp;
 
 import org.eclipse.emf.ecore.EOperation;
 import org.eclipse.emf.ecore.EStructuralFeature;
@@ -14,7 +14,7 @@ import org.eclipse.ui.IWorkbench;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.application.WorkbenchAdvisor;
 
-import test.rcp.DedalEditorAdvisor;
+import fr.ema.dedal.rcp.DedalEditorAdvisor;
 
 /**
  * This class controls all aspects of the application's execution

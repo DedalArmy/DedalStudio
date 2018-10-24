@@ -1,4 +1,4 @@
-package test.rcp;
+package fr.ema.dedal.rcp;
 
 import java.net.URL;
 import java.util.Properties;
@@ -21,7 +21,7 @@ import org.osgi.framework.Bundle;
 
 public class ApplicationWorkbenchAdvisor extends WorkbenchAdvisor {
 
-	private static final String PERSPECTIVE_ID = "test.rcp"; //$NON-NLS-1$
+	private static final String PERSPECTIVE_ID = "fr.ema.dedal.rcp"; //$NON-NLS-1$
 
 	@Override
 	public WorkbenchWindowAdvisor createWorkbenchWindowAdvisor(IWorkbenchWindowConfigurer configurer) {

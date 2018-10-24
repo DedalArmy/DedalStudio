@@ -1,4 +1,4 @@
-package test.rcp;
+package fr.ema.dedal.rcp;
 
 import java.util.MissingResourceException;
 

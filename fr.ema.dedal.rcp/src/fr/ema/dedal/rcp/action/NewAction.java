@@ -1,4 +1,4 @@
-package test.rcp.action;
+package fr.ema.dedal.rcp.action;
 
 import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.emf.common.ui.action.WorkbenchWindowActionDelegate;
@@ -8,7 +8,7 @@ import org.eclipse.jface.wizard.WizardDialog;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.IWorkbench;
 
-import test.rcp.DedalWizard;
+import fr.ema.dedal.rcp.DedalWizard;
 
 /**
  * Action to create objects from the Dedal model. <!-- begin-user-doc --> <!--

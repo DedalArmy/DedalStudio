@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_VnmacNSzEeGBn6dQ9VPexA" elementId="test.rcp.application" bindingContexts="_VnmacdSzEeGBn6dQ9VPexA">
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_VnmacNSzEeGBn6dQ9VPexA" elementId="fr.ema.dedal.rcp.application" bindingContexts="_VnmacdSzEeGBn6dQ9VPexA">
   <children xsi:type="basic:TrimmedWindow" xmi:id="_Vnmah9SzEeGBn6dQ9VPexA" label="Dedal Studio" iconURI="" width="800" height="600">
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_Vnmaj9SzEeGBn6dQ9VPexA" selectedElement="_VnmakNSzEeGBn6dQ9VPexA">
-      <children xsi:type="advanced:Perspective" xmi:id="_VnmakNSzEeGBn6dQ9VPexA" elementId="test.rcp.perspective" label="Dedal Studio" iconURI="">
+      <children xsi:type="advanced:Perspective" xmi:id="_VnmakNSzEeGBn6dQ9VPexA" elementId="fr.ema.dedal.rcp.perspective" label="Dedal Studio" iconURI="">
         <tags>Perspective</tags>
         <tags>categoryTag:General</tags>
         <children xsi:type="basic:PartSashContainer" xmi:id="_VnnBgNSzEeGBn6dQ9VPexA" containerData="" horizontal="true">
@@ -32,11 +32,11 @@
     <mainMenu xmi:id="_kXhsIEfTEei2wPx82YORlQ" elementId="fr.ema.dedal.rcp.menu.0">
       <children xsi:type="menu:Menu" xmi:id="_lySZ8EfTEei2wPx82YORlQ" elementId="fr.ema.dedal.rcp.menu.file" label="File">
         <children xsi:type="menu:Menu" xmi:id="_hiivsEhaEei7NMTiWy5sdA" elementId="fr.ema.dedal.rcp.menu.new" label="New">
-          <children xsi:type="menu:DirectMenuItem" xmi:id="_pBjq8EfWEei2wPx82YORlQ" elementId="fr.ema.dedal.rcp.directmenuitem.newnew" label="Dedal Project" contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.NewAction"/>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_pBjq8EfWEei2wPx82YORlQ" elementId="fr.ema.dedal.rcp.directmenuitem.newnew" label="Dedal Project" contributionURI="bundleclass://fr.ema.dedal.rcp/fr.ema.dedal.rcp.action.NewAction"/>
         </children>
         <children xsi:type="menu:MenuSeparator" xmi:id="__L6DoEiOEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.menuseparator.0"/>
-        <children xsi:type="menu:DirectMenuItem" xmi:id="_ADZFQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.directmenuitem.open" label="Open..." contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.OpenAction"/>
-        <children xsi:type="menu:DirectMenuItem" xmi:id="_AhJYQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.directmenuitem.openuri" label="Open URI..." contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.OpenURIAction"/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_ADZFQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.directmenuitem.open" label="Open..." contributionURI="bundleclass://fr.ema.dedal.rcp/fr.ema.dedal.rcp.action.OpenAction"/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_AhJYQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.directmenuitem.openuri" label="Open URI..." contributionURI="bundleclass://fr.ema.dedal.rcp/fr.ema.dedal.rcp.action.OpenURIAction"/>
         <children xsi:type="menu:MenuSeparator" xmi:id="_DSqcUE7fEeiBPu4GrIa0sg" elementId="fr.ema.dedal.rcp.menuseparator.1"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_HtAiAEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.close" label="Close" command="_dB__EEiOEeiXvb4RukxkGQ"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_IDUwQEiPEeiXvb4RukxkGQ" elementId="fr.ema.dedal.rcp.handledmenuitem.closeall" label="Close All" command="_dCJJAEiOEeiXvb4RukxkGQ"/>
@@ -145,11 +145,11 @@
     <trimBars xmi:id="__M2kgFNzEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.trimbar.0">
       <children xsi:type="menu:ToolBar" xmi:id="__xaDEFNzEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.toolbar.0">
         <children xsi:type="menu:HandledToolItem" xmi:id="_A4ltkFN0Eei157YTiuhwEw" elementId="fr.ema.dedal.rcp.handledtoolitem.save" label="Save" iconURI="platform:/plugin/fr.ema.dedal.rcp/icons/save.gif" command="_6GpAcEkyEeiER-p5RDN9lA"/>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_jdJtcFp9EeiuTrRIcFJJWQ" elementId="fr.ema.dedal.rcp.directtoolitem.componentinspector" label="Architecture Reconstructor" contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.ComponentInspectorDialogHandler"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_jdJtcFp9EeiuTrRIcFJJWQ" elementId="fr.ema.dedal.rcp.directtoolitem.componentinspector" label="Architecture Reconstructor" contributionURI="bundleclass://fr.ema.dedal.rcp/fr.ema.dedal.rcp.action.ComponentInspectorDialogHandler"/>
       </children>
     </trimBars>
   </children>
-  <handlers xmi:id="_qHggQFNkEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.handler.0" contributionURI="bundleclass://fr.ema.dedal.rcp/test.rcp.action.SaveAction" command="_ogEBUFNkEei157YTiuhwEw"/>
+  <handlers xmi:id="_qHggQFNkEei157YTiuhwEw" elementId="fr.ema.dedal.rcp.handler.0" contributionURI="bundleclass://fr.ema.dedal.rcp/fr.ema.dedal.rcp.action.SaveAction" command="_ogEBUFNkEei157YTiuhwEw"/>
   <bindingTables xmi:id="_VnmafNSzEeGBn6dQ9VPexA" bindingContext="_VnmacdSzEeGBn6dQ9VPexA"/>
   <rootContext xmi:id="_VnmacdSzEeGBn6dQ9VPexA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_VnmactSzEeGBn6dQ9VPexA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>

@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
-Automatic-Module-Name: test.rcp
+Automatic-Module-Name: fr.ema.dedal.rcp
 Bundle-SymbolicName: fr.ema.dedal.rcp;singleton:=true
-Export-Package: test.rcp,
- test.rcp.action
+Export-Package: fr.ema.dedal.rcp,
+ fr.ema.dedal.rcp.action
 Bundle-Name: Rcp
 Require-Bundle: fr.ema.dedal.componentinspector;bundle-version="1.0.0",
  org.eclipse.sirius;bundle-version="5.1.1",
@@ -16,7 +16,7 @@ Require-Bundle: fr.ema.dedal.componentinspector;bundle-version="1.0.0",
  org.eclipse.jface,
  fr.ema.dedal.metamodel.editor
 Bundle-ManifestVersion: 2
-Bundle-Activator: test.rcp.Activator
+Bundle-Activator: fr.ema.dedal.rcp.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Import-Package: org.eclipse.e4.core.contexts;version="1.6.0",
