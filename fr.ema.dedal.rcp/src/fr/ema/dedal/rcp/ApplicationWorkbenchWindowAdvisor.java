@@ -1,4 +1,4 @@
-package test.rcp;
+package fr.ema.dedal.rcp;
 
 import org.eclipse.swt.graphics.Point;
 import org.eclipse.ui.application.ActionBarAdvisor;

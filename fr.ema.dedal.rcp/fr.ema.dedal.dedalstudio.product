@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Dedal Studio" uid="test.rcp.product" id="fr.ema.dedal.rcp.product_test" application="fr.ema.dedal.rcp.application" useFeatures="true" includeLaunchers="true">
+<product name="dedalstudio" uid="fr.ema.dedal.dedalstudio" id="fr.ema.dedal.rcp.dedalstudio" application="org.eclipse.ui.ide.workbench" useFeatures="true" includeLaunchers="true">
+
 
    <configIni use="default">
    </configIni>
@@ -15,7 +16,8 @@
 
    <windowImages/>
 
-   <launcher name="Dedal Studio">
+
+   <launcher name="dedalstudio">
       <win useIco="false">
          <bmp
             winSmallLow="/fr.ema.dedal.metamodel.editor/bmp/IconeDedalStudio_16x16.bmp"
@@ -25,9 +27,12 @@
       </win>
    </launcher>
 
+
    <vm>
+      <linux include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</linux>
       <windows include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</windows>
    </vm>
+
 
    <plugins>
    </plugins>
@@ -36,8 +41,6 @@
       <feature id="org.eclipse.e4.rcp"/>
       <feature id="org.eclipse.emf.ecore"/>
       <feature id="org.eclipse.emf.common"/>
-      <feature id="org.eclipse.rcp" version="4.7.3.v20180330-0640"/>
-      <feature id="org.eclipse.platform" version="4.7.3.v20180330-0640"/>
       <feature id="org.eclipse.equinox.p2.user.ui"/>
       <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature"/>
       <feature id="org.eclipse.help"/>
@@ -48,10 +51,15 @@
       <feature id="org.eclipse.equinox.p2.rcp.feature"/>
       <feature id="org.eclipse.ecf.core.ssl.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
-      <feature id="zfeat" version="1.0.0.qualifier"/>
-      <feature id="zfeat3" version="1.0.0.qualifier"/>
-      <feature id="org.eclipse.ecf.filetransfer.feature" version="3.13.7.v20170516-2248"/>
+      <feature id="org.eclipse.rcp" version="4.8.0.v20180611-0656"/>
+      <feature id="org.eclipse.platform" version="4.8.0.v20180611-0656"/>
+      <feature id="org.eclipse.ecf.filetransfer.feature" version="3.14.0.v20180306-0429"/>
+      <feature id="fr.ema.dedal.features" version="1.0.0.qualifier"/>
+      <feature id="fr.ema.dedal.featuresForDedal" version="1.0.0.qualifier"/>
+      <feature id="org.eclipse.xtext.runtime"/>
       <feature id="org.eclipse.xtext.ui" version="2.14.0.v20180523-0937"/>
+      <feature id="de.prob2.ui.eclipse.feature" version="1.0.0.201504241041"/>
+      <feature id="org.eclipse.emf.mwe2.language.sdk" version="2.9.1.201705291011"/>
    </features>
 
    <configurations>

@@ -1,4 +1,4 @@
-package test.rcp;
+package fr.ema.dedal.rcp;
 
 import java.io.File;
 import java.util.HashSet;
