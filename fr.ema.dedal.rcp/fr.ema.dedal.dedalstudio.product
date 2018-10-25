@@ -8,7 +8,7 @@
    </configIni>
 
    <launcherArgs>
-      <programArgs>-clearPersistedState -consoleLog
+      <programArgs>-clearPersistedState
       </programArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
@@ -16,7 +16,11 @@
 
    <windowImages/>
 
-
+   <splash
+      location="fr.ema.dedal.rcp"
+      startupProgressRect="5,275,445,15"
+      startupMessageRect="7,252,445,20"
+      startupForegroundColor="000000" />
    <launcher name="dedalstudio">
       <win useIco="false">
          <bmp
