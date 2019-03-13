@@ -136,13 +136,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.obeonetwork.dsl.viewpoint.xtext.support"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="fr.ema.dedal.rcp"
          download-size="0"
          install-size="0"

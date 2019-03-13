@@ -3,7 +3,6 @@
 
 <product name="dedalstudio" uid="fr.ema.dedal.dedalstudio" id="fr.ema.dedal.rcp.dedalstudio" application="org.eclipse.ui.ide.workbench" useFeatures="true" includeLaunchers="true">
 
-
    <configIni use="default">
    </configIni>
 
@@ -31,12 +30,10 @@
       </win>
    </launcher>
 
-
    <vm>
       <linux include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</linux>
       <windows include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</windows>
    </vm>
-
 
    <plugins>
    </plugins>
@@ -61,9 +58,9 @@
       <feature id="fr.ema.dedal.features" version="1.0.0.qualifier"/>
       <feature id="fr.ema.dedal.featuresForDedal" version="1.0.0.qualifier"/>
       <feature id="org.eclipse.xtext.runtime"/>
-      <feature id="org.eclipse.xtext.ui" version="2.14.0.v20180523-0937"/>
+      <feature id="org.eclipse.xtext.ui"/>
       <feature id="de.prob2.ui.eclipse.feature" version="1.0.0.201504241041"/>
-      <feature id="org.eclipse.emf.mwe2.language.sdk" version="2.9.1.201705291011"/>
+      <feature id="org.eclipse.emf.mwe2.language.sdk"/>
    </features>
 
    <configurations>
